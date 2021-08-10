@@ -1,85 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-04T06:08:05Z" name="Default suite" finished-at="2021-08-04T06:08:24Z" duration-ms="19443">
+  <suite started-at="2021-08-10T10:19:32Z" name="Default suite" finished-at="2021-08-10T10:20:15Z" duration-ms="42901">
     <groups>
     </groups>
-    <test started-at="2021-08-04T06:08:05Z" name="Default test" finished-at="2021-08-04T06:08:24Z" duration-ms="19443">
-      <class name="com.qa.testcases.TestLoginpage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:05Z" name="beforeMethod" finished-at="2021-08-04T11:38:05Z" duration-ms="6" status="PASS">
+    <test started-at="2021-08-10T10:19:32Z" name="Default test" finished-at="2021-08-10T10:20:15Z" duration-ms="42901">
+      <class name="com.qa.testcases.Testaddworkorder">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.Testaddworkorder@40cb698e]" started-at="2021-08-10T15:49:32Z" name="beforeMethod" finished-at="2021-08-10T15:49:32Z" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.testcases.TestLoginpage.logverifytitleofthepage() throws java.lang.Exception]]>
+                <![CDATA[public void com.qa.testcases.Testaddworkorder.filterlist() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:05Z" name="setup" finished-at="2021-08-04T11:38:07Z" duration-ms="2226" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Testaddworkorder@40cb698e]" started-at="2021-08-10T15:49:32Z" name="setup" finished-at="2021-08-10T15:49:38Z" duration-ms="5440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logverifytitleofthepage()[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:07Z" name="logverifytitleofthepage" finished-at="2021-08-04T11:38:08Z" duration-ms="340" status="PASS">
+        <test-method signature="filterlist()[pri:0, instance:com.qa.testcases.Testaddworkorder@40cb698e]" started-at="2021-08-10T15:49:38Z" name="filterlist" finished-at="2021-08-10T15:50:15Z" duration-ms="37006" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logverifytitleofthepage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:08Z" name="teardown" finished-at="2021-08-04T11:38:12Z" duration-ms="4169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:12Z" name="afterMethod" finished-at="2021-08-04T11:38:12Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=logverifytitleofthepage status=SUCCESS method=TestLoginpage.logverifytitleofthepage()[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:12Z" name="beforeMethod" finished-at="2021-08-04T11:38:12Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.testcases.TestLoginpage.Login() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:12Z" name="setup" finished-at="2021-08-04T11:38:13Z" duration-ms="987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:13Z" name="Login" finished-at="2021-08-04T11:38:20Z" duration-ms="7458" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:20Z" name="teardown" finished-at="2021-08-04T11:38:24Z" duration-ms="4039" status="PASS">
+        </test-method> <!-- filterlist -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Testaddworkorder@40cb698e]" started-at="2021-08-10T15:50:15Z" name="teardown" finished-at="2021-08-10T15:50:15Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:24Z" name="afterMethod" finished-at="2021-08-04T11:38:24Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=TestLoginpage.Login()[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.qa.testcases.TestLoginpage@3382f8ae]" started-at="2021-08-04T11:38:24Z" name="endTest" finished-at="2021-08-04T11:38:24Z" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.qa.testcases.Testaddworkorder@40cb698e]" started-at="2021-08-10T15:50:15Z" name="endTest" finished-at="2021-08-10T15:50:15Z" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.qa.testcases.TestLoginpage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Testaddworkorder@40cb698e]" started-at="2021-08-10T15:50:15Z" name="afterMethod" finished-at="2021-08-10T15:50:15Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterlist status=SUCCESS method=Testaddworkorder.filterlist()[pri:0, instance:com.qa.testcases.Testaddworkorder@40cb698e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.testcases.Testaddworkorder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -98,7 +98,7 @@ public class Addworkorder extends Testbase {
 		filter.click();
 		
 		Thread.sleep(5000);
-		WebElement filterlst =driver.findElementByName("COMPLETED");
+		WebElement filterlst =driver.findElementByName("IN-PROGRESS");
 		filterlst.click();
 		
 		Thread.sleep(5000);
