@@ -4,7 +4,7 @@
   <test name="Test">
   
   <classes>
-      <class name="Labpack.com.qa.testcases.TestLoginpage"/>
+      <class name="com.qa.testcases.TestLoginpage"/>
      
     </classes>
     
