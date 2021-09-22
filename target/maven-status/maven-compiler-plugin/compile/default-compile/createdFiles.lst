@@ -1,6 +1,0 @@
-com\qa\pages\Addworkorder.class
-com\qa\utils\Utils.class
-com\qa\testbase\Testbase.class
-com\qa\excelReader\excelReader.class
-com\qa\extendreport\Extendreport.class
-com\qa\pages\Updatelogin.class
